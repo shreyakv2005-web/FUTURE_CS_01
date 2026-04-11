@@ -1,0 +1,25 @@
+Task 1: Vulnerability Assessment Report
+
+1. Introduction:
+This report analyzes the security of a selected website to identify vulnerabilities.
+
+2. Objective:
+To identify security weaknesses and suggest improvements.
+
+3. Tools Used:
+- Browser Developer Tools
+- Manual Testing
+
+4. Findings:
+- Website uses HTTP instead of HTTPS
+- Missing security headers
+
+5. Risk Level:
+Medium
+
+6. Solution:
+- Implement HTTPS
+- Add security headers
+
+7. Conclusion:
+The website has some security issues that need improvement.
