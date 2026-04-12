@@ -1,0 +1,60 @@
+VULNERABILITY ASSESSMENT REPORT
+
+1. Introduction
+This report presents a basic vulnerability assessment of a test website. The purpose of this assessment is to identify potential security weaknesses and provide recommendations to improve the overall security posture of the application.
+
+2. Objective
+The objective of this assessment is to:
+- Identify common web security vulnerabilities
+- Analyze potential risks associated with these vulnerabilities
+- Suggest appropriate mitigation techniques
+
+3. Target Website
+URL: http://testphp.vulnweb.com
+
+This is a deliberately vulnerable test website used for security learning and testing.
+
+4. Tools Used
+- Web Browser (Google Chrome)
+- Browser Developer Tools (Inspect Element)
+- Manual Testing Techniques
+
+5. Findings
+
+Vulnerability 1: Lack of HTTPS
+- Description: The website uses HTTP instead of HTTPS, meaning data is transmitted without encryption.
+- Risk Level: High
+- Impact: Sensitive information can be intercepted by attackers.
+- Recommendation: Implement SSL/TLS to enable HTTPS.
+
+Vulnerability 2: Missing Security Headers
+- Description: Important HTTP security headers such as Content-Security-Policy and X-Frame-Options are not implemented.
+- Risk Level: Medium
+- Impact: Increased risk of attacks like clickjacking and cross-site scripting (XSS).
+- Recommendation: Configure proper security headers on the server.
+
+Vulnerability 3: Input Validation Issues
+- Description: The application does not properly validate user inputs.
+- Risk Level: Medium
+- Impact: Attackers may exploit this to perform SQL Injection or XSS attacks.
+- Recommendation: Implement strict input validation and sanitization.
+
+Vulnerability 4: Information Disclosure
+- Description: The website exposes certain information that may help attackers understand the system.
+- Risk Level: Low
+- Impact: Can assist attackers in planning further attacks.
+- Recommendation: Limit unnecessary information exposure.
+
+6. Risk Summary
+- High Risk: 1
+- Medium Risk: 2
+- Low Risk: 1
+
+7. Conclusion
+The assessment identified several vulnerabilities in the target website, including lack of encryption, missing security configurations, and weak input handling. Addressing these issues will significantly improve the security of the application.
+
+8. Recommendations Summary
+- Enable HTTPS for secure communication
+- Implement proper security headers
+- Validate and sanitize all user inputs
+- Minimize information exposure
