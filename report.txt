@@ -1,0 +1,22 @@
+VULNERABILITY ASSESSMENT REPORT
+
+1. Introduction
+This report analyzes a test website for security vulnerabilities.
+
+2. Target Website
+http://testasp.vulnweb.com
+
+3. Tools Used
+- Web Browser
+- Developer Tools
+
+4. Findings
+- Website uses HTTP (not secure)
+- Missing security headers
+- Input validation issues
+
+5. Risk Level
+Medium
+
+6. Conclusion
+The website has some vulnerabilities that need improvement.
