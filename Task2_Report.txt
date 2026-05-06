@@ -14,6 +14,7 @@ To identify phishing emails and educate users about prevention.
 
 Email 1:
 Subject: Urgent! Your bank account will be suspended
+Sender Email: support@secure-bank-login.xyz (Suspicious)
 
 - Contains urgent message
 - Uses fake link (http://secure-bank-login.xyz)
@@ -22,6 +23,7 @@ Subject: Urgent! Your bank account will be suspended
 
 Email 2:
 Subject: Monthly Bank Statement
+Sender Email: official@bank.com (Legitimate)
 
 - Legitimate message
 - No suspicious links
